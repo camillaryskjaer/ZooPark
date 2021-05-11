@@ -1,0 +1,7 @@
+C:\Users\kira0698\source\repos\ZooPark\ZooPark\obj\Debug\ZooPark.csprojAssemblyReference.cache
+C:\Users\kira0698\source\repos\ZooPark\ZooPark\obj\Debug\ZooPark.csproj.CoreCompileInputs.cache
+C:\Users\kira0698\source\repos\ZooPark\ZooPark\bin\Debug\ZooPark.exe.config
+C:\Users\kira0698\source\repos\ZooPark\ZooPark\bin\Debug\ZooPark.exe
+C:\Users\kira0698\source\repos\ZooPark\ZooPark\bin\Debug\ZooPark.pdb
+C:\Users\kira0698\source\repos\ZooPark\ZooPark\obj\Debug\ZooPark.exe
+C:\Users\kira0698\source\repos\ZooPark\ZooPark\obj\Debug\ZooPark.pdb
