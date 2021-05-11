@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace ZooPark
 {
     class OpeningHours
+// updated version test (ignore this comment it was for git )
     {
         // Needs to implement a timer 
         private bool zooOpenCloseHour;
@@ -54,5 +55,3 @@ namespace ZooPark
 
     }
 }
-
-// update?
