@@ -57,7 +57,6 @@ namespace ZooPark
 
 
         }
-
             static void GirafMethod(Object obj)
             {
                 // i wanted to use the one in the giraf class but i paniced last mins 

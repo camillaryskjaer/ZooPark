@@ -26,7 +26,7 @@ namespace ZooPark
 
         public void OpenCloseHours()
         {
-            var t = new Timer(TimerCallback); // def placed wrongly....
+           Timer t = new Timer(TimerCallback); // def placed wrongly....
 
             // If it's already past 10:00, wait until 10:00 tomorrow
             // the if statement needs to work as such : as the time becomes 10 the zoo opens and visiters are welcome, and at 20 closed for visiters

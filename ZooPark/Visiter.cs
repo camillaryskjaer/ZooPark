@@ -12,7 +12,6 @@ namespace ZooPark
 
         // 3200 gæster
         // mood happy and unhappy
-
         // Are they happy or currently unhappy (implement for each cage later on)
 
         // if the cages are not cleaned in time they will be very unhappy but if it is cleaned in time they they will stay happy
@@ -40,20 +39,23 @@ namespace ZooPark
 
         public bool ThinkDelay { get => thinkDelay; set => thinkDelay = value; }
 
+        public void Mood()
+        {
+            while (OpeningHours == true) // REWRITE THIS ONE 
+            {
+
+                if (Worker.Cleaner.cleaningPointer == 0) // something something cage is cleaned by worker
+                {
+                    IsHappy = true;
+                    Console.WriteLine(" Guests are satisfied");
+                }
+                else
+                {
+                    IsUnHappy = False;
+                    Console.WriteLine(" Guests are Unsatisfied");
+                }
+            }
+        }
     }
 
-    public void Think(Visiter)
-    {
-        Thread.Sleep(Visiter.thinkDelay);
-
-        if (??? = true) // ?? needs to be the method for the opening hours, so the visiters can be happy and unhappy only in working hours
-        {
-            Console.WriteLine($"{Name}, I am satisfied");
-        }
-        else
-        {
-            Console.WriteLine($"{Name}, I am unhappy");
-        }
-
-    }
 }

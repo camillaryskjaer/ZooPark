@@ -19,10 +19,11 @@ namespace ZooPark.Species
         public Giraf(string name) : base(name)
         {
             Name = "Giraf";
+
         }
 
         // lets make that giraf poop shall we(we will start with just 1 giraf)
-        public void PoopGiraf(int numberOfPoops, Object obj, ref List<Elephant> elephants)
+        public void PoopGiraf(int numberOfPoops, Object obj, ref List<Giraf> elephants)
         {
             DateTime startTime = DateTime.Now;
 
