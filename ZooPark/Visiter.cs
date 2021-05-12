@@ -20,6 +20,7 @@ namespace ZooPark
 
         //fields
         private string name;
+        //Hvorfor 2 booleans til at styre en tilstand?
         private bool isHappy;
         private bool isUnHappy;
         private bool thinkDelay;
@@ -43,7 +44,7 @@ namespace ZooPark
         {
             while (OpeningHours == true) // REWRITE THIS ONE 
             {
-
+//Hvad laver en Worker herinde? Den kobling er al for høj
                 if (Worker.Cleaner.cleaningPointer == 0) // something something cage is cleaned by worker
                 {
                     IsHappy = true;
