@@ -29,12 +29,14 @@ namespace ZooPark
             
             // Creating the threads
 
+            //GirafMethod er ikke et gyldigt navn til en metode!
             Thread threadGiraf = new Thread(() => GirafMethod(girafs));
             Thread threadElephant = new Thread(() => ElephantMethod(elephants));
             Thread threadFoxAndWolf = new Thread(() => FoxAndWolfMethod(foxAndWolf));
             Thread threadBunny = new Thread(() => BunnyStuffMethod(bunnyList));
 
             Thread threadWorker = new Thread(() => WorkerStuff(workers));
+            //Hvorfor sender du workers med 2 gange?
             Thread threadvisiters = new Thread(() => VisiterStuff(workers));
 
             // creating the priority of the threads as some cages are in higher need than others
@@ -43,6 +45,7 @@ namespace ZooPark
             threadFoxAndWolf.Priority = ThreadPriority.BelowNormal;
             threadBunny.Priority = ThreadPriority.Lowest;
 
+            //Dobbelt
             threadWorker.Priority = ThreadPriority.Normal;
             threadWorker.Priority = ThreadPriority.Normal;
 
