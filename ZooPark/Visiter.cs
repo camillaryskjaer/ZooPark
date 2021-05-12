@@ -41,6 +41,7 @@ namespace ZooPark
 
         public void Mood()
         {
+            //Hvad aver opening hours her? Al for høj kobling
             while (OpeningHours == true) // REWRITE THIS ONE 
             {
 
